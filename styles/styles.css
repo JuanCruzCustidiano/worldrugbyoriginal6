@@ -519,5 +519,17 @@ iframe.mapa {
     height: 400px; 
     object-fit: cover; 
 }
+.boton-enviar{
+    
+    background-color: #32CD32;
+    margin-top: 10px;
+    
+}
+.enviar{
+    width: 25%;
+}
+.me-2{width: 500px;}
+
+
 
 
