@@ -528,7 +528,56 @@ iframe.mapa {
 .enviar{
   width: 25%;
 }
-.me-2{width: 500px;}
+.juanx-animation {
+  animation: scaleAnimation 5s infinite; 
+  transform-origin: center;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(0.2); 
+    opacity: 0; 
+  }
+  50% {
+    transform: scale(1.2); 
+    opacity: 1; 
+  }
+  100% {
+    transform: scale(0.2); 
+    opacity: 0; 
+  }
+}
+.card {
+  opacity: 50;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.card.animated {
+  opacity: 1;
+  transform: translateY(0);
+}
+.producto {
+  transition: transform 0.3s;
+}
+
+.producto:hover {
+  transform: scale(1.1); 
+}
+nav ul{
+  transition: transform 0.3s ease; 
+}
+
+nav ul:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
 
 
 
