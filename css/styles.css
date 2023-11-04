@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f5f5f5;
@@ -9,14 +10,14 @@ body {
 }
 
 header {
-  background-color: #32CD32;
+  background-image: linear-gradient(to top, #004B8D, #32CD32);
   text-align: center;
   padding: 20px 0;
 }
 
 .header__content {
   display: flex;
-  justify-content: space between;
+  justify-content: space-between;
   align-items: center;
   padding: 0 20px;
 }
@@ -71,14 +72,14 @@ main {
   text-align: center;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #32CD32;
+  background-color: #004B8D;
   color: #fff;
   text-decoration: none;
   font-size: 18px;
 }
 
 .link-more:hover {
-  background-color: #228B22;
+  background-color: #32CD32;
 }
 
 .seleccion-container {
@@ -96,7 +97,7 @@ main {
   padding-bottom: 20px;
 }
 
-.seleccion-text p {
+.seleccion-text {
   font-size: 18px;
   margin: 0;
 }
@@ -110,22 +111,24 @@ main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.ranking-title, .video-title {
+.ranking-title,
+.video-title {
   font-size: 28px;
   margin: 0;
   padding-bottom: 20px;
 }
 
-.ranking, iframe {
+.ranking,
+iframe {
   max-width: 800px;
   height: 500px;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background: linear-gradient(to bottom, #004B8D, #32CD32);
+  color: white;
+  padding: 20px;
   text-align: center;
-  padding: 20px 0;
 }
 
 .footer-content {
@@ -167,14 +170,6 @@ h1 {
   margin-top: 20px;
 }
 
-.estadio {
-  border: 2px solid #000;
-  padding: 20px;
-  text-align: center;
-  background-color: #f0f0f0;
-  border-radius: 10px;
-}
-
 h2 {
   font-size: 24px;
   font-weight: 700;
@@ -206,85 +201,85 @@ p {
 
 @media (min-width: 769px) {
   .header {
-      padding: 20px 0;
+    padding: 20px 0;
   }
 
   .header__content {
-      flex-direction: row;
-      padding: 0 20px;
+    flex-direction: row;
+    padding: 0 20px;
   }
 
   .logo {
-      max-height: 100px;
+    max-height: 100px;
   }
 
   nav ul {
-      text-align: center;
+    text-align: center;
   }
 
   nav li {
-      display: inline;
-      margin: 0 20px;
+    display: inline;
+    margin: 0 20px;
   }
 
   nav a {
-      font-size: 18px;
+    font-size: 20px;
   }
 
   main {
-      max-width: 1200px;
-      padding: 20px;
-      margin-bottom: 20px;
+    max-width: 1200px;
+    padding: 20px;
+    margin-bottom: 20px;
   }
 
   .link-more {
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
   }
 
   .seleccion-container {
-      display: flex;
-      margin-bottom: 40px;
+    display: flex;
+    margin-bottom: 40px;
   }
 
   .imagenes-rugby {
-      max-width: 350px;
-      height: auto;
-      margin-left: 20px;
+    max-width: 350px;
+    height: 600px;
+    margin-left: 20px;
   }
 
   .ranking-title,
   .video-title {
-      font-size: 28px;
-      padding-bottom: 20px;
+    font-size: 28px;
+    padding-bottom: 20px;
   }
 
   .ranking,
   iframe {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 769px) {
   footer {
-      padding: 20px 0;
+    padding: 20px 0;
   }
 
   .footer-logo img {
-      max-width: 150px;
+    max-width: 150px;
   }
 
   .footer-info {
-      text-align: left;
+    text-align: left;
   }
 
   .footer-info h2 {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .footer-info p {
-      font-size: 16px;
+    font-size: 16px;
   }
 }
 
@@ -303,176 +298,178 @@ p {
 
 @media screen and (max-width: 767px) {
   .header {
-      padding: 10px 0;
+    padding: 10px 0;
   }
 
   .header__content {
-      padding: 0 10px;
+    padding: 0 10px;
   }
 
   nav ul {
-      text-align: center;
+    text-align: center;
   }
 
   nav li {
-      display: block;
-      margin: 10px 0;
+    display: block;
+    margin: 10px 0;
   }
 
   .logo {
-      max-width: 100%;
-      height: auto;
-      max-height: 80px;
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
   }
 
   main {
-      padding: 10px;
+    padding: 10px;
   }
 
   .titulos-index {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .parrafo-ejemplo {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .link-more {
-      margin-top: 10px;
-      padding: 5px 10px;
-      font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
   }
 
   .seleccion-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .imagenes-rugby {
-      max-width: 100%;
-      height: auto;
-      margin: 10px 0;
+    max-width: 350px;
+    height: 350px;
+    margin: 10px 0;
   }
 
   .ranking-title,
   .video-title {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .ranking,
   iframe {
-      height: 500px;
-      max-width: 100%;
+    height: 500px;
+    max-width: 100%;
   }
 
   footer {
-      padding: 10px 0;
+    padding: 10px 0;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header {
-      padding: 20px 0;
+    padding: 20px 0;
   }
 
   .header__content {
-      padding: 0 20px;
+    padding: 0 20px;
   }
 
   nav ul {
-      text-align: center;
+    text-align: center;
   }
 
   nav li {
-      display: inline;
-      margin: 0 20px;
+    display: inline;
+    margin: 0 20px;
   }
 
   .logo {
-      max-width: 100%;
-      height: auto;
-      max-height: 100px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
   }
 
   main {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
   }
 
   .titulos-index {
-      font-size: 32px;
+    font-size: 32px;
   }
 
   .parrafo-ejemplo {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .link-more {
-      display: inline-block;
-      text-align: center;
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
   }
 
   .seleccion-container {
-      display: flex;
-      margin-bottom: 40px;
+    display: flex;
+    margin-bottom: 40px;
   }
 
   .seleccion-text {
-      flex: 1;
+    flex: 1;
   }
 
   .selecciones {
-      font-size: 24px;
+    font-size: 34px;
+    font-weight: 600;
   }
 
   .seleccion-text p {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .imagenes-rugby {
-      max-width: 350px;
-      height: auto;
-      margin-left: 20px;
+    max-width: 350px;
+    height: 250px;
+    margin-left: 20px;
+    justify-content: center;
   }
 
   .ranking-title,
   .video-title {
-      font-size: 28px;
+    font-size: 28px;
   }
 
   .ranking,
   iframe {
-      max-width: 100%;
-      height: auto;
+    max-width: 100%;
+    height: auto;
   }
 
   footer {
-      padding: 20px 0;
+    padding: 20px 0;
   }
 }
 
 @media (max-width: 768px) {
   .producto {
-      text-align: start;
+    text-align: start;
   }
 
   .producto img {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .precio {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .comprar {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   footer {
-      padding: 10px 0;
+    padding: 10px 0;
   }
 }
 
@@ -510,43 +507,47 @@ iframe.mapa {
 .boton:hover {
   border: 3px solid #32CD32;
 }
+
 .card img {
-  max-width: 100%; 
-  max-height: 100%; 
+  max-width: 100%;
+  max-height: 100%;
 }
+
 .card img {
-  width: 100%; 
-  height: 400px; 
-  object-fit: cover; 
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
-.boton-enviar{
-  
+
+.boton-enviar {
   background-color: #32CD32;
   margin-top: 10px;
-  
 }
-.enviar{
+
+.enviar {
   width: 25%;
 }
+
 .juanx-animation {
-  animation: scaleAnimation 5s infinite; 
+  animation: scaleAnimation 5s infinite;
   transform-origin: center;
 }
 
 @keyframes scaleAnimation {
   0% {
-    transform: scale(0.2); 
-    opacity: 0; 
+    transform: scale(0.2);
+    opacity: 0;
   }
   50% {
-    transform: scale(1.2); 
-    opacity: 1; 
+    transform: scale(1.2);
+    opacity: 1;
   }
   100% {
-    transform: scale(0.2); 
-    opacity: 0; 
+    transform: scale(0.2);
+    opacity: 0;
   }
 }
+
 .card {
   opacity: 50;
   transform: translateY(20px);
@@ -557,21 +558,78 @@ iframe.mapa {
   opacity: 1;
   transform: translateY(0);
 }
+
 .producto {
   transition: transform 0.3s;
 }
 
 .producto:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
-nav ul{
-  transition: transform 0.3s ease; 
+
+nav ul {
+  transition: transform 0.3s ease;
 }
 
 nav ul:hover {
   transform: scale(1.1);
 }
 
+.seleccionesx {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.formulario-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  color: #000;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footer-info {
+  text-align: center;
+  align-items: center;
+}
+
+.juanx-animation {
+  font-size: 34;
+  font-weight: 600;
+}
+
+.navbar {
+  background-image: linear-gradient(#004B8D, #004B8D);
+  font-size: 20px;
+}
+
+.navbar .nav-link,
+.navbar .dropdown-menu a {
+  color: white;
+}
+
+.navbar .nav-link.active {
+  color: white;
+}
+
+.navbar .nav-item.dropdown .dropdown-menu {
+  background-color: #333;
+}
+
+.navbar .nav-item.dropdown .dropdown-menu a {
+  color: white;
+}
+
+.navbar .nav-item.dropdown .dropdown-menu a:hover {
+  color: #32CD32;
+}
+.v6{text-align: center;}
 
 
 
